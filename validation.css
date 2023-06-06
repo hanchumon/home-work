@@ -1,0 +1,28 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/variable/pretendardvariable.css");
+
+
+
+li {
+  list-style: none;
+  width: 250px;
+  height: 37px;
+  background: #CCCCCC;
+  border-radius: 34px;
+  margin: 8px 8px 8px 8px;
+  background: url(./validation_icon_2.png) no-repeat 6% #CCCCCC;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #000000;
+  padding-top: 9px;
+  display: block;
+
+margin-left: 35px;
+}
