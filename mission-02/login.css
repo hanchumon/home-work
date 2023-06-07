@@ -1,0 +1,122 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/variable/pretendardvariable-dynamic-subset.css");
+
+* {
+  font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  margin: 30px;
+}
+
+input[type="text"] {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.login {
+  width: 244px;
+  height: 161px;
+  padding: 12px;
+  background: linear-gradient(90deg, #ED552F 0%, #E8852E 100%);
+  box-shadow: 5px 5px 0px #AAAAAA;
+  border-radius: 5px;
+  border-bottom: #AAAAAA;
+}
+.loginForm{
+  
+}
+fieldset{
+  border: 0;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid #AAAAAA;
+}
+
+legend {
+  width: 39px;
+  height: 23px;
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #FFFF00;
+  margin-bottom: 8px;
+}
+
+.loginForm__group {
+  margin-top: ;
+  padding: 8px;
+  background: #FFFFFF;
+  border-radius: 5px 5px 0px 0px;
+  border: 0;
+  width: 230px;
+  height: 69px;
+  position: relative;
+}
+.loginForm__id, .loginForm__pw{
+  width: 56px;
+  height: 21px;
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #000000;
+  text-align: left;
+  display: inline-block;
+}
+input[type="text"]{
+  width: 100px;
+  height: 24px;  
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+  padding: 0px;
+  margin-top: 2px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.loginButton{
+  width: 50px;
+  height: 53px;
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 150%;
+  background: #ED552F;
+  border-radius: 5px;
+  border: 0;
+  color: #FFFFFF;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  margin-top: -2.156rem;
+}
+
+.login__add{
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 150%;
+  list-style: none;
+  width: 246px;
+  height: 36px;
+  background: #FFFFFF;
+  border-radius: 0px 0px 5px 5px;
+}
+.login__Join{
+margin-left: 8px;
+float: left;
+}
+
+.login__Find{
+  margin-right: 8px;
+  float: right;
+}
