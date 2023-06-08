@@ -4,35 +4,40 @@
   font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body{
   margin: 30px;
 }
 
-input[type="text"] {
-  -webkit-appearance: none;
-  appearance: none;
-}
-
-.login {
+.login{
   width: 244px;
   height: 161px;
   padding: 12px;
   background: linear-gradient(90deg, #ED552F 0%, #E8852E 100%);
   box-shadow: 5px 5px 0px #AAAAAA;
   border-radius: 5px;
-  border-bottom: #AAAAAA;
+  position: relative;
 }
 
 fieldset{
   border: 0;
   margin: 0;
   padding: 0;
-  border-bottom: 1px solid #AAAAAA;
 }
 
 legend {
+  overflow: hidden;
+  position: absolute !important;
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+h3 {
   width: 39px;
   height: 23px;
   font-family: 'Pretendard';
@@ -45,34 +50,47 @@ legend {
 }
 
 .loginForm__group {
+  width: 220px;
+  height: 69px;
   padding: 8px;
   background: #FFFFFF;
   border-radius: 5px 5px 0px 0px;
   border: 0;
-  width: 230px;
-  height: 69px;
   position: relative;
 }
+
 .loginForm__id, .loginForm__pw{
   width: 56px;
-  height: 21px;
+  display: inline-block;
   font-family: 'Pretendard';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 150%;
   color: #000000;
-  text-align: left;
-  display: inline-block;
 }
-input[type="text"]{
-  width: 100px;
+input[type="email"],
+input[type="password"]{
+  width: 90px;
   height: 24px;  
   border: 1px solid #CCCCCC;
-  border-radius: 4px;
-  padding: 0px;
-  margin-top: 2px;
+  border-radius: 5px;
 }
+
+input[type="email"]::placeholder,
+input[type="password"]::placeholder{
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #7A7A7A;
+  text-indent: 8px;
+}
+.loginForm__pw{
+  margin-top: 4px;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -91,29 +109,36 @@ a {
   border: 0;
   color: #FFFFFF;
   position: absolute;
-  right: 10px;
-  top: 50%;
-  margin-top: -2.156rem;
+  right: 8px;
+  top: 8px;
 }
-
+span.line{
+  width: 209px;
+  height: 1px;
+  background: #CCCCCC;
+  position: absolute;
+  left: 18px;
+}
 .login__add{
   font-family: 'Pretendard';
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
-  line-height: 150%;
-  list-style: none;
-  width: 246px;
+  line-height: 1.5;
+  list-style: none
+  ;
+  width: 220px;
   height: 36px;
   background: #FFFFFF;
   border-radius: 0px 0px 5px 5px;
 }
 .login__Join{
-margin-left: 8px;
+margin: 4px 0 0 16px;
 float: left;
+
 }
 
 .login__Find{
-  margin-right: 8px;
+  margin:4px 8px 0 0;
   float: right;
 }

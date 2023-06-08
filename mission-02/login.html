@@ -10,27 +10,30 @@
 </head>
 
 <body>
-  <form class="login" action="/" method="get" id="login">
-    <!-- <h3 class="loginTitle">로그인</h3> -->
-    <fieldset>
-      <legend>로그인</legend>
-      <div class="loginForm__group">
-        <div class="loginForm">
-          <label for="loginForm__id" class="loginForm__id">아이디</label>
-          <input type="text" id="loginForm__id" name="loginForm__id" required class="loginForm__id"
-            placeholder="euid@euid.de" /><br />
-          <label for="loginForm__pw" class="loginForm__pw">비밀번호</label>
-          <input type="text" id="loginForm__pw" name="loginForm__pw" required class="loginForm__pw"
-            placeholder="8자리 이상" />
+  <div class="login">
+    <form class="loginForm" action="/" method="post" id="login">
+      <h3>로그인</h3>
+      <fieldset>
+        <legend>로그인 폼</legend>
+        <div class="loginForm__group">
+          <div class="loginForm__asign">
+            <label for="loginForm__id" class="loginForm__id">아이디</label>
+            <input type="email" id="loginForm__id" name="loginForm__id" required class="loginForm__id"
+              placeholder="euid@euid.de" /><br />
+            <label for="loginForm__pw" class="loginForm__pw">비밀번호</label>
+            <input type="password" id="loginForm__pw" name="loginForm__pw" required class="loginForm__pw"
+              placeholder="8자리 이상" minlength="8"/>
+          </div>
+          <button type="submit" class="loginButton">로그인</button>
         </div>
-        <button type="submit" class="loginButton">로그인</button>
-      </div>
-    </fieldset>
+      </fieldset>
+    </form>
+    <span class="line"></span>
     <ul class="login__add">
       <li><a class="login__Join" href="/">회원가입</a></li>
       <li><a class="login__Find" href="/">아이디 비밀번호 찾기</a></li>
     </ul>
-  </form>
+  </div>
 </body>
 
 </html>
