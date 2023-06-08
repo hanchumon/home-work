@@ -11,16 +11,6 @@ body{
   margin: 30px;
 }
 
-.login{
-  width: 244px;
-  height: 161px;
-  padding: 12px;
-  background: linear-gradient(90deg, #ED552F 0%, #E8852E 100%);
-  box-shadow: 5px 5px 0px #AAAAAA;
-  border-radius: 5px;
-  position: relative;
-}
-
 fieldset{
   border: 0;
   margin: 0;
@@ -37,9 +27,23 @@ legend {
   margin: -1px;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.login{
+  width: 244px;
+  height: 161px;
+  padding: 12px;
+  background: linear-gradient(90deg, #ED552F 0%, #E8852E 100%);
+  box-shadow: 5px 5px 0px #AAAAAA;
+  border-radius: 5px;
+  position: relative;
+}
+
+
 h3 {
-  width: 39px;
-  height: 23px;
   font-family: 'Pretendard';
   font-style: normal;
   font-weight: 700;
@@ -66,7 +70,7 @@ h3 {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 150%;
+  line-height: 1.5;
   color: #000000;
 }
 input[type="email"],
@@ -91,10 +95,6 @@ input[type="password"]::placeholder{
   margin-top: 4px;
 }
 
-a {
-  text-decoration: none;
-  color: black;
-}
 
 .loginButton{
   width: 50px;
@@ -125,17 +125,16 @@ span.line{
   font-weight: 400;
   font-size: 13px;
   line-height: 1.5;
-  list-style: none
-  ;
+  list-style: none  ;
   width: 220px;
   height: 36px;
   background: #FFFFFF;
   border-radius: 0px 0px 5px 5px;
+  display: flow-root;
 }
 .login__Join{
 margin: 4px 0 0 16px;
 float: left;
-
 }
 
 .login__Find{
