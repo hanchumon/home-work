@@ -1,5 +1,5 @@
 <div align="center">
-<h1>Mission02 - 트랜지션 구현하기<✔️/h1>
+<h1>Mission03 - 트랜지션 구현하기✔️</h1>
 </div>
 
 <br>
