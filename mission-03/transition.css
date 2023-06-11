@@ -1,0 +1,128 @@
+*{
+  box-sizing: border-box;
+}
+.a11y,legend {
+  overflow: hidden;
+  position: absolute !important;
+  clip: rect(0, 0, 0, 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+/* reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.15;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+.site{
+  margin: 20px;
+  background: linear-gradient(180deg, #CCCCCC 0%, #EEEEEE 100%);;
+  width: 190px;
+  height: 85px;
+  border-radius: 0 0 5px 5px;
+  border: 1px solid #a3a3a3;
+}
+
+.site-title {
+  width: 100%;
+  height: 43px;
+  font-family: 'Pretendard';
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 12px 12px 8px 12px;
+}
+
+.site-title-1{
+  color: #181818;
+}
+.site-title-2{
+  color: #ED552F;
+}
+
+.site-list{
+  width: 100%;
+  background: #fff;
+  width: 166px;
+  height: 30px;
+  border: 1px solid #A3A3A3;
+  border-radius: 5px;
+  margin: 0 auto 12px auto;
+  padding-left: 24px;
+  overflow: hidden;
+}
+.site-list li{
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #181818;
+
+}
+
+.site-list a{
+  display: block;
+  margin-top: 4px;
+}
+
+.site:hover{
+  height: 222px;
+  transition: height 1s ease-out;
+
+}
+.site:hover .site-list {
+  height: 165px;
+  padding-top: 20px;
+  transition: padding-top 1s ease-in-out 500ms, height 1s ease-out;
+}
