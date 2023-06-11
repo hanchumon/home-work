@@ -54,7 +54,7 @@
 ```
 
 #### **3. 결과 화면**
-<img width="260" alt="스크린샷 2023-06-08 오후 10 26 05" src="https://github.com/hanchumon/home-work/assets/116139215/fc00f3d5-b2a5-4a85-8872-576cc4afa7fa">
+![GIFMaker_me](https://github.com/hanchumon/home-work/assets/116139215/3ec46828-2157-48ea-b379-6269cb4d81f2)
 
 
 <br>
