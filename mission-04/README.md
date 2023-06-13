@@ -39,24 +39,20 @@
     <a href="/" class="news-more">더보기</a>
   </section>
 ```
-- BODY
-  - SECTION class="news"
-    - H2 class="news-title"
-      - TextNode: "새소식"
-    - SPAN class="line_decoration"
-    - P class="news-sub-title"
-      - TextNode: "W3C 사이트가 리뉴얼 되었습니다."
-    - P class="news-time"
-      - TIME datetime="2022-07-18"
-        - TextNode: "2022.07.18"
-    - P class="news-contents"
-      - TextNode: "디자인 및 다양한 view 환경을 고려하여 구성되어 있으며, 기존보다 최신 정보 및 개발자를 위한 기술 가이드도 찾기 쉽도록 구성되어 있습니다."
-    - FIGURE class="news-figure"
-      - IMG src="./news_1.png" alt="W3C 리뉴얼 화면" class="new-image"
-      - FIGCAPTION
-        - TextNode: "W3C 리뉴얼"
-    - A href="/" class="news-more"
-      - TextNode: "더보기"
+
+- body
+  - section.news
+    - h2.news-title
+    - span.line_decoration
+    - p.news-sub-title
+    - p.news-time
+      - time[datetime="2022-07-18"]
+    - p.news-contents
+    - figure.news-figure
+      - img.new-image[src="./news_1.png"][alt="W3C 리뉴얼 화면"]
+      - figcaption
+    - a.news-more[href="/"]
+
 
 전체 section을 구성 한 뒤 같은 레벨에 자식요소를 구성하여 시맨틱 요소를 해치 지 않는 선에서 마크업 한다.
 
