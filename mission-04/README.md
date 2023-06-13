@@ -40,20 +40,6 @@
   </section>
 ```
 
-- body
-  - section.news
-    - h2.news-title
-    - span.line_decoration
-    - p.news-sub-title
-    - p.news-time
-      - time[datetime="2022-07-18"]
-    - p.news-contents
-    - figure.news-figure
-      - img.new-image[src="./news_1.png"][alt="W3C 리뉴얼 화면"]
-      - figcaption
-    - a.news-more[href="/"]
-
-
 전체 section을 구성 한 뒤 같은 레벨에 자식요소를 구성하여 시맨틱 요소를 해치 지 않는 선에서 마크업 한다.
 
 
