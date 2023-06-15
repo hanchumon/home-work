@@ -52,7 +52,7 @@ table {
 body{
   margin: 30px;
   box-sizing: border-box;
-  font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  font-family: "Pretendard Variable", Pretendard, sans-serif;
 }
 
 .favorite{
@@ -109,6 +109,7 @@ body{
   width: 20px;
   height: 20px;
   float: right;
+  margin-right: -10px;
   background-position: 0 4px;
 }
 
@@ -118,6 +119,7 @@ body{
   width: 20px;
   height: 20px;
   float: right;
+  margin-right: -10px;
   background-position: 0 -17px;
 }
 
@@ -127,6 +129,7 @@ body{
   width: 20px;
   height: 20px;
   float: right;
+  margin-right: -10px;
   background-position: 0 -40px;
 }
 
